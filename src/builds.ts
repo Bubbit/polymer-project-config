@@ -136,7 +136,6 @@ export const buildPresets = new Map<string, ProjectBuildOptions>([
       bundle: true,
       addServiceWorker: true,
       addPushManifest: true,
-      insertPrefetchLinks: true,
     }
   ],
   [
@@ -150,7 +149,6 @@ export const buildPresets = new Map<string, ProjectBuildOptions>([
       bundle: true,
       addServiceWorker: true,
       addPushManifest: true,
-      insertPrefetchLinks: true,
     }
   ],
   [
@@ -164,7 +162,6 @@ export const buildPresets = new Map<string, ProjectBuildOptions>([
       bundle: false,
       addServiceWorker: true,
       addPushManifest: true,
-      insertPrefetchLinks: true,
     }
   ],
 ]);
